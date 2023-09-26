@@ -53,4 +53,15 @@ public class Produto {
     public void setValorTotal(float valorTotal) {
         this.valorTotal = valorTotal;
     }
+
+    @Override
+    public String toString() {
+        return "Produto{" +
+                "codigo=" + codigo +
+                ", descricao='" + descricao + '\'' +
+                ", acrescimo=" + acrescimo +
+                ", desconto=" + desconto +
+                ", valorTotal=" + valorTotal +
+                '}';
+    }
 }
